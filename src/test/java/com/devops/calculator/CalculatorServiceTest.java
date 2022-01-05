@@ -26,10 +26,7 @@ public class CalculatorServiceTest {
         assertEquals(15, new CalculatorService().Mull(10, 5).getResult());
     }
 
- @Test
-    public void testAdd() {
-        assertEquals(15, new CalculatorService().Add(10, 5).getResult());
-    }
+ 
  @Test
     public void testDiv() {
         assertEquals(15, new CalculatorService().Div(10, 5).getResult());
