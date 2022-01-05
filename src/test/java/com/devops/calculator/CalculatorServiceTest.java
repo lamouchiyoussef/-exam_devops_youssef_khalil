@@ -19,17 +19,17 @@ public class CalculatorServiceTest {
     }
      @Test
     public void testSub() {
-        assertEquals(15, new CalculatorService().Sub(10, 5).getResult());
+        assertEquals(5, new CalculatorService().Sub(10, 5).getResult());
     }
  @Test
     public void testMull() {
-        assertEquals(15, new CalculatorService().Mull(10, 5).getResult());
+        assertEquals(50, new CalculatorService().Mull(10, 5).getResult());
     }
 
  
  @Test
     public void testDiv() {
-        assertEquals(15, new CalculatorService().Div(10, 5).getResult());
+        assertEquals(2, new CalculatorService().Div(10, 5).getResult());
     }
 
 }
