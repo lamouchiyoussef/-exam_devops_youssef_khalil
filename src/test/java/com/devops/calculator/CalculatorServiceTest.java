@@ -22,8 +22,8 @@ public class CalculatorServiceTest {
         assertEquals(5, new CalculatorService().Sub(10, 5).getResult());
     }
  @Test
-    public void testMull() {
-        assertEquals(50, new CalculatorService().Mull(10, 5).getResult());
+    public void testMul() {
+        assertEquals(50, new CalculatorService().Mul(10, 5).getResult());
     }
 
  
